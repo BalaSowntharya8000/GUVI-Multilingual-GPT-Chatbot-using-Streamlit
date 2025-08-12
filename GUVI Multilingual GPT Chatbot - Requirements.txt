@@ -1,0 +1,61 @@
+# Requirements for GUVI Multilingual FAQ Chatbot – Deep Learning, Translation, Web UI
+
+# Core libraries for deep learning and model inference
+
+# 🔹 Core Deep Learning Libraries
+torch==2.4.0                  # PyTorch – Core deep learning framework for model inference & tensor ops
+transformers==4.44.2          # Hugging Face Transformers – Load & run pretrained NLP models
+sentencepiece==0.2.0          # Tokenizer for multilingual models (e.g., mT5, MarianMT)
+huggingface-hub==0.24.6       # Interface to download models & datasets from Hugging Face
+accelerate==0.33.0            # Optimize inference/training across CPUs, GPUs, and multi-device setups
+
+# 🔹 Chatbot Web Interface
+gradio==5.41.0                # User-friendly web UI for chatbot interaction & testing
+
+# 🔹 Translation & Language Detection
+deep-translator==1.11.4       # Translate user queries & bot answers to multiple languages
+langdetect==1.0.9             # Auto-detects input language to trigger translation logic
+
+# 🔹 String Matching & Fuzzy Search
+fuzzywuzzy==0.18.0            # Approximate string matching for better FAQ query matching
+python-Levenshtein==0.25.1    # Speeds up fuzzy matching by using optimized C-based Levenshtein distance
+
+# 🔹 Data Handling & Processing
+pandas==2.2.2                 # Data manipulation, CSV handling for FAQ dataset
+numpy==1.26.4                 # Numerical computations and array operations
+
+# 🔹 Utility Libraries
+tqdm==4.66.4                  # Progress bars for loops & processing
+python-dotenv==1.0.1          # Manage API keys & environment variables securely
+
+
+# Colab Installation Cell
+
+# Install All Required Libraries for GUVI Multilingual FAQ Chatbot
+
+# 📦 Install Core Deep Learning Libraries
+!pip install torch==2.4.0                  # PyTorch – Core deep learning framework for model inference & tensor ops
+!pip install transformers==4.44.2          # Hugging Face Transformers – Load & run pretrained NLP models
+!pip install sentencepiece==0.2.0           # Tokenizer for multilingual models (e.g., mT5, MarianMT)
+!pip install huggingface-hub==0.24.6        # Download models & datasets from Hugging Face Hub
+!pip install accelerate==0.33.0             # Optimize model inference/training on multiple devices
+
+# 🖥️ Install Chatbot Web Interface Library
+!pip install gradio==5.41.0                 # User-friendly web UI for chatbot interaction & testing
+
+# 🌐 Install Translation & Language Detection Tools
+!pip install deep-translator==1.11.4        # Translate queries & bot responses to multiple languages
+!pip install langdetect==1.0.9              # Detects language of user input for translation logic
+
+# 🔍 Install String Matching & Fuzzy Search Libraries
+!pip install fuzzywuzzy==0.18.0             # Approximate string matching for better FAQ matching
+!pip install python-Levenshtein==0.25.1     # Speed up fuzzy matching using optimized Levenshtein distance
+
+# 📊 Install Data Handling & Processing Libraries
+!pip install pandas==2.2.2                  # Handle CSV files & tabular data for FAQ dataset
+!pip install numpy==1.26.4                   # Numerical computations & array operations
+
+# ⚙️ Install Utility Libraries
+!pip install tqdm==4.66.4                    # Progress bars for loops & processing steps
+!pip install python-dotenv==1.0.1            # Load API keys & environment variables securely
+
