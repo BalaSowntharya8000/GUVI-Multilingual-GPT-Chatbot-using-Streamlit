@@ -125,3 +125,5 @@ By combining advanced AI and NLP techniques with an easy-to-use Gradio interface
 different languages. Deployed on scalable platforms like Hugging Face Spaces, the solution offers an accessible, maintainable, and extensible framework suitable for educational platforms such as GUVI. 
 This project highlights the practical applications of deep learning and multilingual NLP in enhancing user engagement and accessibility in digital learning environments.
 Future work can include expanding the dataset to cover more languages, integrating voice-based interactions, and improving context retention for longer conversations.
+
+#### Developer - Bala Sowntharya Bala Subramanian
