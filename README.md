@@ -44,22 +44,22 @@ The chatbot interface is developed as a web application using Gradio, enabling r
 
 ### Business Use Cases:
 **1. Customer Support Automation**  
-● Scenario: Organizations receive customer queries in various regional languages, but most automated systems only understand English.
-● Application: The chatbot can automatically translate incoming queries to English, process them using the fine-tuned model, and respond in the user's language, enabling 24/7 multilingual support 
+- Scenario: Organizations receive customer queries in various regional languages, but most automated systems only understand English.
+- Application: The chatbot can automatically translate incoming queries to English, process them using the fine-tuned model, and respond in the user's language, enabling 24/7 multilingual support 
                 without hiring additional language experts.
 
 **2. E-Learning Platforms**
-● Scenario: Educational platforms like GUVI serve a multilingual audience, but automated chat support is often limited to English, creating a barrier for non-English-speaking users.
-● Application: The multilingual chatbot can interact with students in their native languages, assisting with course inquiries, enrollment help, and technical support, thereby enhancing 
+- Scenario: Educational platforms like GUVI serve a multilingual audience, but automated chat support is often limited to English, creating a barrier for non-English-speaking users.
+- Application: The multilingual chatbot can interact with students in their native languages, assisting with course inquiries, enrollment help, and technical support, thereby enhancing 
 accessibility and user satisfaction
 
 **3. Career Guidance and Mentorship Assistant**
-● Scenario: Leverage the GPT model to offer career suggestions and roadmaps to learners based on their interests and skill levels.
-● Application: The chatbot can suggest learning paths (e.g., Full Stack, Data Science), connect learners to relevant resources, and simulate basic career counseling.
+- Scenario: Leverage the GPT model to offer career suggestions and roadmaps to learners based on their interests and skill levels.
+- Application: The chatbot can suggest learning paths (e.g., Full Stack, Data Science), connect learners to relevant resources, and simulate basic career counseling.
 
 **4. Course Discovery and Recommendation**
-● Scenario: Assist users in finding the right course based on their interests, goals, or current skill level.
-● Application: The GPT model can ask a few questions to the user and recommend specific GUVI courses, certifications, or masterclasses.
+- Scenario: Assist users in finding the right course based on their interests, goals, or current skill level.
+- Application: The GPT model can ask a few questions to the user and recommend specific GUVI courses, certifications, or masterclasses.
 
 ### Technologies Used
 This project primarily uses Python along with several specialized libraries and tools to build, deploy, and manage the multilingual chatbot:
